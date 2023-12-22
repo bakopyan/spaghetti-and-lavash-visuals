@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+
+# Compiled TypeScript
+*.js
+*.js.map
+*.d.ts
+dist/
+
+# Dependency directories
+/lib/
+
+# Visual Studio Code directory
+.vscode/
+
+# Compiled Node.js add-ons
+/build/Release
+
+# Local development environment
+.env
+
+# Log files
+logs/
+*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db

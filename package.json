@@ -1,0 +1,31 @@
+{
+  "name": "spaghetti-and-lavash",
+  "version": "1.0.0",
+  "description": "SpaghettiCharts and LavashVisuals",
+  "main": "main.js",
+  "dependencies": {
+    "commonjs": "^0.0.1",
+    "d3": "^7.8.5",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "serve": "^14.2.1"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "start": "npm run build && npm run serve",
+    "serve": "serve dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bakopyan/spaghetti-and-lavash-visuals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bakopyan/spaghetti-and-lavash-visuals/issues"
+  },
+  "homepage": "https://github.com/bakopyan/spaghetti-and-lavash-visuals#readme"
+}

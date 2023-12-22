@@ -1,2 +1,3 @@
-# spaghetti-and-lavash
+# spaghetti-and-lavash-visuals
+
 SpaghettiCharts and LavashVisuals
