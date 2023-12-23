@@ -4,18 +4,22 @@
   "description": "SpaghettiCharts and LavashVisuals",
   "main": "main.js",
   "dependencies": {
+    "@types/node": "^18.19.3",
     "commonjs": "^0.0.1",
     "d3": "^7.8.5",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
     "@types/d3": "^7.4.3",
+    "copyfiles": "^2.4.1",
+    "esbuild": "0.19.10",
     "serve": "^14.2.1"
   },
   "scripts": {
-    "build": "npx tsc",
-    "start": "npm run build && npm run serve",
-    "serve": "serve dist"
+    "copy-html": "copyfiles -f src/*.html dist/",
+    "bundle": "esbuild src/main.ts --bundle --outdir=dist --watch --servedir=dist",
+    "build": "npm run copy-html && npm run bundle",
+    "start": "npm run build"
   },
   "repository": {
     "type": "git",

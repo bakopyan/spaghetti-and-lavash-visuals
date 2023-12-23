@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
-    "target": "esnext",
-    "module": "esnext",
+    "target": "ES6",
+    "module": "NodeNext",
     "outDir": "./dist",
     "rootDir": "./src",
+    "moduleResolution": "NodeNext",
     "strict": true
   },
   "include": ["src/**/*.ts"],
