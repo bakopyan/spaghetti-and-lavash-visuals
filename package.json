@@ -1,35 +1,21 @@
 {
-  "name": "spaghetti-and-lavash",
-  "version": "1.0.0",
-  "description": "SpaghettiCharts and LavashVisuals",
-  "main": "main.js",
-  "dependencies": {
-    "@types/node": "^18.19.3",
-    "commonjs": "^0.0.1",
-    "d3": "^7.8.5",
-    "typescript": "^5.3.3"
+  "name": "spaghetti-and-lavash-visuals",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
-    "@types/d3": "^7.4.3",
-    "copyfiles": "^2.4.1",
-    "esbuild": "0.19.10",
-    "serve": "^14.2.1"
-  },
-  "scripts": {
-    "copy-html": "copyfiles -f src/*.html dist/",
-    "bundle": "esbuild src/main.ts --bundle --outdir=dist --watch --servedir=dist",
-    "build": "npm run copy-html && npm run bundle",
-    "start": "npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bakopyan/spaghetti-and-lavash-visuals.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bakopyan/spaghetti-and-lavash-visuals/issues"
-  },
-  "homepage": "https://github.com/bakopyan/spaghetti-and-lavash-visuals#readme"
+    "@sveltejs/vite-plugin-svelte": "^3.0.1",
+    "@tsconfig/svelte": "^5.0.2",
+    "svelte": "^4.2.8",
+    "svelte-check": "^3.6.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
 }
