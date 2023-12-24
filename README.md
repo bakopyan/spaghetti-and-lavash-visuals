@@ -1,3 +1,3 @@
 # spaghetti-and-lavash-visuals
 
-SpaghettiCharts and LavashVisuals
+Spaghetti and Lavash Visuals
